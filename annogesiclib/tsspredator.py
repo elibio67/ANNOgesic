@@ -414,7 +414,7 @@ class TSSpredator(object):
         shutil.rmtree("tmp")
 
     def _remove_files(self, args_tss):
-        print("Remove temperary files and folders")
+        print("Remove temporary files and folders")
         self.helper.remove_tmp_dir(args_tss.fastas)
         self.helper.remove_tmp_dir(args_tss.gffs)
         self.helper.remove_tmp_dir(args_tss.ta_files)
